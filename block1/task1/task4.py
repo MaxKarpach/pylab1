@@ -1,0 +1,6 @@
+s = open("input2.txt").readline()
+s = s.split()
+o = open("output2.txt", "w")
+r = str(int(s[0][1:]) + int(s[1][0:-1])**2)
+o.write(r)
+o.close()
